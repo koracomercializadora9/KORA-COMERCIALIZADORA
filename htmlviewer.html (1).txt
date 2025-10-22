@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kora Comercializadora</title>
+
+  <!-- Fuente y iconos -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --azul-oscuro: #1b2735;
+      --beige: #f7f5ee;
+      --azul-suave: #3a506b;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 0;
+      overflow-x: hidden;
+      color: var(--azul-oscuro);
+      background: linear-gradient(160deg, var(--beige) 0%, #dce3ea 50%, var(--azul-suave) 100%);
+      background-attachment: fixed;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin: 0;
+      color: var(--azul-oscuro);
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 4px;
+      margin-top: 8px;
+      margin-bottom: 25px;
+      color: var(--azul-oscuro);
+      text-transform: uppercase;
+    }
+
+    p.descripcion {
+      font-size: 1rem;
+      margin: 0 auto 25px;
+      max-width: 500px;
+      line-height: 1.6;
+    }
+
+    /* Publicidad refinada */
+    .promo {
+      background-color: white;
+      border: 1.5px solid var(--azul-oscuro);
+      border-radius: 12px;
+      padding: 12px 18px;
+      max-width: 420px;
+      margin: 25px auto 40px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+
+    .promo:hover {
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+      transform: translateY(-2px);
+    }
+
+    .promo h3 {
+      font-size: 1.05rem;
+      font-weight: 500;
+      margin: 0;
+      color: var(--azul-oscuro);
+      letter-spacing: 0.5px;
+    }
+
+    .promo span {
+      font-weight: 700;
+      color: var(--azul-suave);
+    }
+
+    .botones {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background-color: var(--azul-oscuro);
+      color: white;
+      padding: 12px 28px;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 10px;
+      font-size: 17px;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    }
+
+    .btn i {
+      font-size: 19px;
+    }
+
+    .btn:hover {
+      background-color: #2a3b4c;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+    }
+
+    .btn.instagram {
+      background-color: #3a506b;
+    }
+
+    .btn.instagram:hover {
+      background-color: #4b6282;
+    }
+
+    /* Sección de envíos mejorada */
+    .envios {
+      background: linear-gradient(135deg, #ffffff, #f3f5f7);
+      border: 1.5px solid rgba(58, 80, 107, 0.2);
+      border-radius: 20px;
+      max-width: 520px;
+      margin: 50px auto 30px;
+      padding: 25px 20px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .envios:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .envios p {
+      font-size: 0.95rem;
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color: var(--azul-oscuro);
+    }
+
+    .envios i {
+      color: var(--azul-suave);
+      margin-right: 8px;
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>KORA</h1>
+  <h2>COMERCIALIZADORA</h2>
+  <p class="descripcion">Distribuimos productos de calidad con el compromiso y la confianza que nos caracteriza.</p>
+
+  <!-- Publicidad elegante -->
+  <div class="promo">
+    <h3>✨ Lleva <span>2 referencias</span> de la colección de verano por <span>$30.000</span> ✨</h3>
+  </div>
+
+  <div class="botones">
+    <a class="btn whatsapp" href="https://api.whatsapp.com/send?phone=+56986907893&text=Hola,%20quisiera%20más%20información%20sobre%20sus%20productos" target="_blank">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+    <a class="btn instagram" href="https://www.instagram.com/kora.comercial?igsh=MWRxbWl5anM4MXk2cg==" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+  </div>
+
+  <!-- Nueva sección de envíos mejorada -->
+  <div class="envios">
+    <p><i class="fas fa-truck"></i> Envíos a todo Chile con <strong>Blue Express</strong> y <strong>Starken</strong>.  
+    Entregas en la RM a través de <strong>Paket</strong>.</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Kora Comercializadora — Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
